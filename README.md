@@ -95,13 +95,7 @@ RealTime_Football_Analysis/
 ### Basic Analysis
 
 \\\ash
-python footballanalysis.py
-\\\
-
-### GUI Application
-
-\\\ash
-python gui/football_analysis_gui.py
+python footballanalysis.py --gui
 \\\
 
 ### Tactical Board
@@ -109,18 +103,6 @@ python gui/football_analysis_gui.py
 \\\ash
 python tacticalboard.py
 \\\
-
-### Unsupervised Action Discovery
-
-\\\ash
-python unsupervised_analyzer.py
-\\\
-
-## 🔧 Configuration
-
-Edit configuration files for custom settings:
-- \unsupervised/speed_config.json\ - Processing speed settings
-- \unsupervised_speed_config.json\ - Global speed configuration
 
 ## 📊 Modules Overview
 
