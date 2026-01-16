@@ -23,8 +23,8 @@ A comprehensive football match analysis system with player detection, action rec
 ### 1. Clone the repository
 
 \\\ash
-git clone https://github.com/YOUR_USERNAME/football-analysis.git
-cd football-analysis
+git clone https://github.com/ahmetackk/RealTime_Football_Analysis.git
+cd RealTime_Football_Analysis
 \\\
 
 ### 2. Install dependencies
@@ -65,7 +65,7 @@ Extract and place in \unsupervised/data/\:
 ## 📁 Project Structure
 
 \\\
-football-analysis/
+RealTime_Football_Analysis/
 ├── analyzer/              # Core analysis engines
 │   ├── analyzer.py       # Main analyzer
 │   └── discovery_engine.py
