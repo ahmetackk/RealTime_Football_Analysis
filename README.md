@@ -21,7 +21,7 @@ A comprehensive football match analysis system with player detection, action rec
 ```bash
 git clone https://github.com/ahmetackk/RealTime_Football_Analysis.git
 cd RealTime_Football_Analysis
-pip install -r requirements.txt
+python setup.py
 ```
 
 ## Download Large Files
