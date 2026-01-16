@@ -1,19 +1,17 @@
-﻿# Büyük Data Dosyaları (Google Drive'da olacak)
+﻿# Büyük Data Dosyaları (Google Drive'da)
 *.h5
 *.mp4
 *.ckpt
 
-# Büyük Model Dosyaları
+# Büyük Model Dosyaları (Google Drive'da)
 *.engine
-models/player_detection.onnx
-models/action_recognition.pt
-models/pitch_detection.onnx
-models/ball_detection.onnx
-jersey_recognizer/models/legibility_resnet34.pth
-unsupervised/models/action_recognition.pt
-unsupervised/backup/models/action_recognition.pt
+models/*.onnx
+models/*.pt
+jersey_recognizer/models/*.pth
+jersey_recognizer/models/*.ckpt
+unsupervised/models/*.pt
 
-# Backup klasörü (gereksiz duplikasyon)
+# Backup klasörü
 unsupervised/backup/
 
 # Python cache
@@ -31,3 +29,6 @@ Thumbs.db
 .idea/
 *.swp
 *.swo
+
+# Logs
+*.log
