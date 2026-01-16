@@ -1,0 +1,9 @@
+{
+  "name": "Fast",
+  "description": "Quick demo (~2-3 minutes)",
+  "unsupervised_samples": 80,
+  "clip_max_per_class": 3,
+  "new_action_frame_limit": 1000,
+  "new_action_stride": 100,
+  "new_action_videos_per_cluster": 2
+}
